@@ -4,14 +4,23 @@
   "additionalProperties": {
     "type": "object",
     "properties": {
+      "bio": {
+        "type": "string"
+      },
+      "birthday": {
+        "type": "string"
+      },
       "image": {
         "type": "string",
         "format": "uri"
       },
       "name": {
         "type": "string"
+      },
+      "number": {
+        "type": "string"
       }
     },
-    "required": ["image", "name"]
+    "required": ["bio", "birthday", "image", "name", "number"]
   }
 }
